@@ -1,2 +1,1 @@
-A txt file
-A txt file
+This is the second text file
