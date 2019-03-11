@@ -1,8 +1,5 @@
 A txt file
-<<<<<<< HEAD
-A txt file
-=======
 aaaaaaaaaaaaaa
 bbbbbbbbbbb
 ccccccccccccccc
->>>>>>> 12486eef3f02ffc0d5a7f249aa4c5527a32717f3
+ddddddddddddddddd
