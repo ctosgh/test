@@ -7,7 +7,7 @@ node('master'){
         
     stage('stage2'){
         echo "this is stage 2"
-        echo ${BRANCH_NAME}
+        sh("echo ${BRANCH_NAME}")
     }
         
     stage('deploy'){
