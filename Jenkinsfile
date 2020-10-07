@@ -11,6 +11,6 @@ node('master'){
     }
         
     stage('deploy'){
-        sh("export AWS_ACCESS_KEY_ID=AKIAWTNNZ7OS4RB2YLOJ; export AWS_SECRET_ACCESS_KEY=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; python3 run.py")
+        sh("export AWS_ACCESS_KEY_ID=AKIAWTNNZ7OS5N7WNF7B; export AWS_SECRET_ACCESS_KEY=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; cd mysam; sam build; sam deploy --no-confirm-changeset")
     }
 }
