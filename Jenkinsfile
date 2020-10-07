@@ -11,6 +11,6 @@ node('master'){
     }
         
     stage('deploy'){
-        sh("export AWS_ACCESS_KEY_ID=AKIAWTNNZ7OS5N7WNF7B; export AWS_SECRET_ACCESS_KEY=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; cd mysam; sam build; sam deploy --no-confirm-changeset")
+        sh("cd mysam; sam build; sam deploy --no-confirm-changeset")
     }
 }
